@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfaf6">
+  <meta name="description" content="Small-batch bread and baked goods, made slowly and shared generously at Oat Wilde Bread Co.">
+  <title>Oat Wilde Bread Co. | Good things take time</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html#home" aria-label="Oat Wilde Bread Co. home">
+      <img class="brand-logo" src="OAT%20WILDE.png" alt="Oat Wilde Bread Co.">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=2200&q=85" alt="Freshly baked artisan loaves ready to share" fetchpriority="high">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A neighborhood bakery, made with care</p>
+        <h1 id="hero-title">Good bread<br><span>takes its time.</span></h1>
+        <p class="hero-intro">Small-batch loaves and lovely little things, made slowly and shared generously.</p>
+        <a class="button button-light" href="menu.html">See the menu <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="hero-note">Mixed by hand. Shared with love.</p>
+    </section>
+
+    <section class="bakes section-wrap" id="bakes" aria-labelledby="bakes-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow eyebrow-olive">From our oven</p>
+        <h2 id="bakes-title">A little something<br>for the table.</h2>
+        <p>Simple ingredients, long rests, and the kind of baking that makes the kitchen smell like home.</p>
+      </div>
+      <div class="bake-list">
+        <article class="bake-item reveal">
+          <span class="bake-number">01</span>
+          <div><h3>Country sourdough</h3><p>A crackly, deep-golden crust with a soft, tangy middle. A loaf for every day.</p></div>
+          <span class="bake-mark" aria-hidden="true">✳</span>
+        </article>
+        <article class="bake-item reveal">
+          <span class="bake-number">02</span>
+          <div><h3>Morning buns</h3><p>Flaky, buttery layers rolled in cinnamon sugar. Best enjoyed while still a little warm.</p></div>
+          <span class="bake-mark" aria-hidden="true">✳</span>
+        </article>
+        <article class="bake-item reveal">
+          <span class="bake-number">03</span>
+          <div><h3>Seasonal little things</h3><p>Whatever the orchard, market, and changing seasons have on offer.</p></div>
+          <span class="bake-mark" aria-hidden="true">✳</span>
+        </article>
+      </div>
+      <div class="bakes-footer reveal">
+        <p>Small batches mean the menu changes with the week.</p>
+        <a class="text-link" href="menu.html">See the full menu <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="story-image-wrap">
+        <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=1200&q=85" alt="Hands shaping dough on a flour-dusted workbench" loading="lazy">
+        <span class="image-caption">A slower kind of good.</span>
+      </div>
+      <div class="story-copy reveal">
+        <p class="eyebrow eyebrow-olive">A little about us</p>
+        <h2 id="story-title">Good things<br>take time.</h2>
+        <p>Oat Wilde began with a sourdough starter on the counter and a simple thought: the everyday things deserve a little care.</p>
+        <a class="text-link" href="about.html">Get to know us <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="hello section-wrap" id="hello" aria-labelledby="hello-title">
+      <p class="eyebrow eyebrow-olive reveal">The kettle's always on</p>
+      <h2 id="hello-title" class="reveal">Let's make<br>something lovely.</h2>
+      <p class="hello-copy reveal">For a loaf, a little celebration, or just to talk bread, drop us a note.</p>
+      <a class="button button-dark reveal" href="mailto:hello@wildoakbaking.com?subject=Hello%20Oat%20Wilde%20Bread%20Co.">hello@wildoakbaking.com <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="index.html#home" aria-label="Oat Wilde Bread Co. home"><img class="brand-logo" src="OAT%20WILDE.png" alt=""></a>
+    <p>Made slowly. Shared generously.</p>
+    <a href="index.html#home" class="back-top">Back to top ↑</a>
+    <small>© <span id="year">2026</span> Oat Wilde Bread Co.</small>
+  </footer>
+</body>
+</html>
